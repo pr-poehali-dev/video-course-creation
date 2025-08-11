@@ -40,7 +40,7 @@ const Index = () => {
       {/* Hero Section */}
       <section className="py-20 px-4">
         <div className="max-w-6xl mx-auto text-center">
-          <h1 className="text-5xl font-bold text-slate-800 mb-6 animate-fade-in">
+          <h1 className="font-bold text-slate-800 mb-6 animate-fade-in px-0 text-3xl">
             Профессиональное бизнес-обучение
           </h1>
           <p className="text-xl text-slate-600 mb-8 max-w-3xl mx-auto">
@@ -321,15 +321,16 @@ const Index = () => {
               <div className="space-y-4">
                 <div className="flex items-center">
                   <Icon name="Mail" size={20} className="mr-3 text-green-600" />
-                  <span>info@edubusiness.ru</span>
+                  <span>support.learning@eme.ru</span>
                 </div>
                 <div className="flex items-center">
                   <Icon name="Phone" size={20} className="mr-3 text-green-600" />
-                  <span>+7 (495) 123-45-67</span>
+                  <span>+7 (495) 109-09-79
++7 (812) 209-06-07</span>
                 </div>
                 <div className="flex items-center">
                   <Icon name="MapPin" size={20} className="mr-3 text-green-600" />
-                  <span>Москва, ул. Деловая, 1</span>
+                  <span>107076, г. Москва, Колодезный пер., дом 2а. стр 1</span>
                 </div>
                 <div className="flex items-center">
                   <Icon name="Clock" size={20} className="mr-3 text-green-600" />
