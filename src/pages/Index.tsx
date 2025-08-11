@@ -381,7 +381,7 @@ const Index = () => {
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
-              <h4 className="font-bold text-xl mb-4">EduBusiness</h4>
+              <h4 className="font-bold text-xl mb-4 text-green-500">EME.LEARNING</h4>
               <p className="text-slate-300">Ваш надёжный партнёр в профессиональном развитии</p>
             </div>
             <div>
