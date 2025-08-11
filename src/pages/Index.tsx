@@ -125,7 +125,7 @@ const Index = () => {
                   <div className="space-y-2">
                     <div className="flex items-center">
                       <Icon name="Medal" size={16} className="mr-2 text-gold-500" />
-                      <span className="text-sm">Эксперт по продажам</span>
+                      <span className="text-sm mx-0">Эксперт</span>
                     </div>
                     <div className="flex items-center">
                       <Icon name="Target" size={16} className="mr-2 text-blue-500" />
