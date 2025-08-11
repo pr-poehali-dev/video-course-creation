@@ -15,7 +15,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 py-4">
           <nav className="flex items-center justify-between">
             <div className="flex items-center space-x-8">
-              <div className="font-bold text-2xl text-green-600">EduBusiness</div>
+              <div className="font-bold text-2xl text-green-600">EME</div>
               <div className="hidden md:flex space-x-6">
                 <a href="#courses" className="text-slate-700 hover:text-green-600 transition-colors">Курсы</a>
                 <a href="#about" className="text-slate-700 hover:text-green-600 transition-colors">О нас</a>
