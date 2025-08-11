@@ -9,18 +9,18 @@ const Index = () => {
   const [activeTab, setActiveTab] = useState('dashboard');
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
+    <div className="min-h-screen bg-gradient-to-br from-white to-green-50">
       {/* Header */}
       <header className="bg-white/90 backdrop-blur-sm border-b border-slate-200 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 py-4">
           <nav className="flex items-center justify-between">
             <div className="flex items-center space-x-8">
-              <div className="font-bold text-2xl text-blue-600">EduBusiness</div>
+              <div className="font-bold text-2xl text-green-600">EduBusiness</div>
               <div className="hidden md:flex space-x-6">
-                <a href="#courses" className="text-slate-700 hover:text-blue-600 transition-colors">Курсы</a>
-                <a href="#about" className="text-slate-700 hover:text-blue-600 transition-colors">О нас</a>
-                <a href="#pricing" className="text-slate-700 hover:text-blue-600 transition-colors">Цены</a>
-                <a href="#contact" className="text-slate-700 hover:text-blue-600 transition-colors">Контакты</a>
+                <a href="#courses" className="text-slate-700 hover:text-green-600 transition-colors">Курсы</a>
+                <a href="#about" className="text-slate-700 hover:text-green-600 transition-colors">О нас</a>
+                <a href="#pricing" className="text-slate-700 hover:text-green-600 transition-colors">Цены</a>
+                <a href="#contact" className="text-slate-700 hover:text-green-600 transition-colors">Контакты</a>
               </div>
             </div>
             <div className="flex items-center space-x-4">
@@ -28,7 +28,7 @@ const Index = () => {
                 <Icon name="User" size={16} className="mr-2" />
                 Личный кабинет
               </Button>
-              <Button className="bg-blue-600 hover:bg-blue-700">
+              <Button className="bg-green-600 hover:bg-green-700">
                 <Icon name="LogIn" size={16} className="mr-2" />
                 Войти
               </Button>
@@ -47,11 +47,11 @@ const Index = () => {
             Развивайте навыки управления, лидерства и стратегического мышления с помощью наших экспертных видеокурсов
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-blue-600 hover:bg-blue-700 px-8 py-3">
+            <Button size="lg" className="bg-green-600 hover:bg-green-700 px-8 py-3">
               <Icon name="Play" size={20} className="mr-2" />
               Начать обучение
             </Button>
-            <Button size="lg" variant="outline" className="px-8 py-3">
+            <Button size="lg" variant="outline" className="px-8 py-3 border-green-600 text-green-600 hover:bg-green-50">
               <Icon name="BookOpen" size={20} className="mr-2" />
               Каталог курсов
             </Button>
@@ -107,7 +107,7 @@ const Index = () => {
                       <span className="text-sm">Лидерство в команде</span>
                       <Badge variant="secondary">45%</Badge>
                     </div>
-                    <Button variant="link" className="p-0 h-auto text-blue-600">
+                    <Button variant="link" className="p-0 h-auto text-green-600">
                       Продолжить изучение →
                     </Button>
                   </div>
@@ -131,7 +131,7 @@ const Index = () => {
                       <Icon name="Target" size={16} className="mr-2 text-blue-500" />
                       <span className="text-sm">Стратег года</span>
                     </div>
-                    <Button variant="link" className="p-0 h-auto text-blue-600">
+                    <Button variant="link" className="p-0 h-auto text-green-600">
                       Все достижения →
                     </Button>
                   </div>
@@ -175,7 +175,7 @@ const Index = () => {
               }
             ].map((course, index) => (
               <Card key={index} className="hover-scale group">
-                <div className="h-48 bg-gradient-to-br from-blue-500 to-blue-600 rounded-t-lg flex items-center justify-center">
+                <div className="h-48 bg-gradient-to-br from-green-500 to-green-600 rounded-t-lg flex items-center justify-center">
                   <Icon name="Play" size={48} className="text-white opacity-80 group-hover:opacity-100 transition-opacity" />
                 </div>
                 <CardHeader>
@@ -198,8 +198,8 @@ const Index = () => {
                     </span>
                   </div>
                   <div className="flex items-center justify-between">
-                    <span className="text-2xl font-bold text-blue-600">{course.price}</span>
-                    <Button size="sm" className="bg-blue-600 hover:bg-blue-700">
+                    <span className="text-2xl font-bold text-green-600">{course.price}</span>
+                    <Button size="sm" className="bg-green-600 hover:bg-green-700">
                       Записаться
                     </Button>
                   </div>
@@ -223,24 +223,24 @@ const Index = () => {
               </p>
               <div className="grid grid-cols-2 gap-6">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600">15,000+</div>
+                  <div className="text-3xl font-bold text-green-600">15,000+</div>
                   <div className="text-slate-600">Студентов</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600">50+</div>
+                  <div className="text-3xl font-bold text-green-600">50+</div>
                   <div className="text-slate-600">Курсов</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600">95%</div>
+                  <div className="text-3xl font-bold text-green-600">95%</div>
                   <div className="text-slate-600">Довольны результатом</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600">24/7</div>
+                  <div className="text-3xl font-bold text-green-600">24/7</div>
                   <div className="text-slate-600">Поддержка</div>
                 </div>
               </div>
             </div>
-            <div className="bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl h-80 flex items-center justify-center">
+            <div className="bg-gradient-to-br from-green-500 to-green-600 rounded-2xl h-80 flex items-center justify-center">
               <Icon name="GraduationCap" size={120} className="text-white opacity-30" />
             </div>
           </div>
@@ -276,15 +276,15 @@ const Index = () => {
                 recommended: false
               }
             ].map((plan, index) => (
-              <Card key={index} className={`hover-scale ${plan.recommended ? 'ring-2 ring-blue-500' : ''}`}>
+              <Card key={index} className={`hover-scale ${plan.recommended ? 'ring-2 ring-green-500' : ''}`}>
                 {plan.recommended && (
-                  <div className="bg-blue-600 text-white text-center py-2 rounded-t-lg font-medium">
+                  <div className="bg-green-600 text-white text-center py-2 rounded-t-lg font-medium">
                     Рекомендуем
                   </div>
                 )}
                 <CardHeader className="text-center">
                   <CardTitle className="text-xl">{plan.name}</CardTitle>
-                  <div className="text-3xl font-bold text-blue-600">
+                  <div className="text-3xl font-bold text-green-600">
                     {plan.price}
                     <span className="text-sm font-normal text-slate-500">/{plan.period}</span>
                   </div>
@@ -299,7 +299,7 @@ const Index = () => {
                     ))}
                   </ul>
                   <Button 
-                    className={`w-full ${plan.recommended ? 'bg-blue-600 hover:bg-blue-700' : 'bg-slate-600 hover:bg-slate-700'}`}
+                    className={`w-full ${plan.recommended ? 'bg-green-600 hover:bg-green-700' : 'bg-slate-600 hover:bg-slate-700'}`}
                   >
                     Выбрать план
                   </Button>
@@ -320,19 +320,19 @@ const Index = () => {
               <h3 className="text-xl font-semibold mb-6">Контактная информация</h3>
               <div className="space-y-4">
                 <div className="flex items-center">
-                  <Icon name="Mail" size={20} className="mr-3 text-blue-600" />
+                  <Icon name="Mail" size={20} className="mr-3 text-green-600" />
                   <span>info@edubusiness.ru</span>
                 </div>
                 <div className="flex items-center">
-                  <Icon name="Phone" size={20} className="mr-3 text-blue-600" />
+                  <Icon name="Phone" size={20} className="mr-3 text-green-600" />
                   <span>+7 (495) 123-45-67</span>
                 </div>
                 <div className="flex items-center">
-                  <Icon name="MapPin" size={20} className="mr-3 text-blue-600" />
+                  <Icon name="MapPin" size={20} className="mr-3 text-green-600" />
                   <span>Москва, ул. Деловая, 1</span>
                 </div>
                 <div className="flex items-center">
-                  <Icon name="Clock" size={20} className="mr-3 text-blue-600" />
+                  <Icon name="Clock" size={20} className="mr-3 text-green-600" />
                   <span>Пн-Пт: 9:00-18:00</span>
                 </div>
               </div>
@@ -348,24 +348,24 @@ const Index = () => {
                     <input 
                       type="text" 
                       placeholder="Ваше имя" 
-                      className="w-full p-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                      className="w-full p-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
                     />
                   </div>
                   <div>
                     <input 
                       type="email" 
                       placeholder="Email" 
-                      className="w-full p-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                      className="w-full p-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
                     />
                   </div>
                   <div>
                     <textarea 
                       placeholder="Ваше сообщение" 
                       rows={4}
-                      className="w-full p-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                      className="w-full p-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
                     />
                   </div>
-                  <Button className="w-full bg-blue-600 hover:bg-blue-700">
+                  <Button className="w-full bg-green-600 hover:bg-green-700">
                     <Icon name="Send" size={16} className="mr-2" />
                     Отправить сообщение
                   </Button>
